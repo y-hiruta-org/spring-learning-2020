@@ -18,4 +18,11 @@ public class EchoController {
 
 	}
 
+	@RequestMapping(method = RequestMethod.POST)
+	public String echo(EchoForm form) {
+		return "echo/output";
+
+	}
+
+
 }
