@@ -5,6 +5,7 @@
 		<div>テキストを入力をしてください：</div>
 		<div>
 			<form:input path="text" />
+			<form:errors path="text" />
 		</div>
 		<div>
 			<form:button>送信</form:button>
